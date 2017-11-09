@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Final Project - Stopwatch and Countdown Timer</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="processInputs.js"></script>	
+	</head>
+
+	<body>
+		<section id="main">
+			<div id="stopwatchArea" class="contentArea" style="visibility:visible">
+				<h1>Stopwatch</h1>
+				<div id="stopwatchDisplay">00:00:00</div>
+					<p>
+						<span id="stopwatchStartPause" class="button">Start/Pause</span>&nbsp;&nbsp;   
+						<span id="stopwatchReset" class="button">Restart/Reset</span><br><br>
+						<span id="stopwatchNotification" class="redtext"></span>
+						<p>Note: The Restart/Reset button will return the timer to zero and start timing again if clicked while the timer is running. If the timer is stopped, the Restart/Reset button will set it to zero but it will not run again until "Start" is hit.</p>
+					</p>
+			</div>
+		      
+			<div id="timerArea" class="contentArea" style="visibility:visible">
+				<h1>Countdown Timer</h1>
+				<div id="countdownTimerDisplay">00:00:00</div>
+					<p>
+						<span id="startPauseTimer" class="button">Start/Pause Timer</span>   	
+					</p>
+					<p>
+						<input id="timerInput" type="text" size="30" maxlength="50"><span id="validationImage"></span><br>
+						<span id="timerPrompt">Please enter the countdown timer length enter up to 10 minutes in 00:00:00 format (minutes:seconds:hundredths)</span>
+					</p>
+			</div>
+		</section>
+		      
+		<!-- Debug output (when on) will go here -->
+		<section id="debugTools" style="visibility:visible">
+			<h2>Debug Tools</h2>
+			<p>
+				<span id="debugOnOff" class="button" style="visibility:visible">Debug on/off</span>
+				<span id="hideDebug" class="button" style="visibility:visible">Hide Debug</span>
+			</p>
+			<div id="debugOutput" style="visibility:visible">
+				<p><b>Debug Output Info:</b></p>
+			</div>
+		</section>
+	</body>
+</html>

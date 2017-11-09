@@ -1,0 +1,89 @@
+body {
+	color: black;
+	width: 900px;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 100%;
+	margin: auto auto;
+	background-color: #99ddff;
+}
+
+h1 {
+	font-size: 150%;
+	text-align: center;
+}
+
+h2 {
+	font-size: 120%;
+}
+
+section {
+	width: 900px;
+	margin: auto auto;
+	padding: 20px;
+	margin-top: 15px;
+	background-color: white;
+	border: 2px solid black;
+}
+
+#main {
+	height: 350px;
+}
+
+.contentArea {
+	width: 50%;
+	float: left;
+	text-align: center;
+	height: auto;
+}
+
+.button {
+	margin: auto auto;
+	background-color: #66ffcc;
+	border: 2px solid #33cccc;
+	font-weight: bold;
+	padding: 5px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.button:hover {
+	background-color: #00b8e6;
+	color: white;
+	cursor: pointer;
+}
+
+#stopwatchDisplay, #countdownTimerDisplay {
+	height: 100px;
+	font-size: 500%;
+	margin: 20px 10px 10px 20px;
+	border: 5px solid blue;
+}
+
+#debugTools {
+	width: 100%;
+	padding-left: 20px;
+	padding-top: 10px;
+	clear: left;
+	height: auto;
+	color: blue;
+}
+
+#debugOutput {
+	width: 90%;
+	padding-left: 5px;
+	clear: left;
+	height: auto;
+}
+
+.redtext {
+	color: red;
+}
+
+.blacktext {
+	color: black;
+}
+
+.timerUp {
+	color: red;
+	font-size: 100%;
+}
